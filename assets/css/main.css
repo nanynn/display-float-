@@ -1,0 +1,54 @@
+body{
+	background-color: whitesmoke;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	margin-top: 1em;
+}
+
+.caja-grande{
+	width: 800px;
+	background-color: #3F3F3F;
+	padding: 20px;
+}
+
+.caja{
+	background-color: #7F7F7F;
+	color: whitesmoke;
+	padding: 20px;
+	margin: 0;
+	/*margin: 0 -1.5px; esto sirve para evitar el espacio*/
+	display: inline-block; /* solo respeto el espacio del otro cuando soy inline-block*/
+	box-sizing: border-box; /*los obliga a todos a ocupar el espacio que yo dé */
+	width: 197px; /*Este numero se obtuvo del inspector de elementos*/
+}
+
+.caja.no{
+	/*display:none;*/
+	background-color: red;
+}
+
+
+/*************************************/
+.big-box{
+	padding: 20px;
+	background-color: #BE18C5;
+	overflow: auto;
+}
+
+.big-box .ta{
+	box-sizing: border-box;
+	width: 200px;
+	border: 2px solid indigo;
+	background-color: #3C0A3F;
+	color:whitesmoke;
+	padding:20px;
+	float: left;
+	
+}
+
+.big-box .ta:last-child{
+	background-color: #79257D;
+	clear: right;
+
+}
